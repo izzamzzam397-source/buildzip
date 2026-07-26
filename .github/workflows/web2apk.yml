@@ -1,4 +1,4 @@
-name: BOT BUILD RIZY/CIA
+name: Web2APK
 
 on:
   workflow_dispatch:
@@ -231,5 +231,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: bot build rizy/cia-release
+          name: web2apk-release
           path: myapp/build/app/outputs/flutter-apk/app-release.apk
